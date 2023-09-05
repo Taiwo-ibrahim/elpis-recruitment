@@ -1,0 +1,481 @@
+.service__container {
+  width: 100%;
+}
+.service__container-hero_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.service__container-hero_text > h1  {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  max-width: 750px;
+  width: 90%;
+  margin-inline: auto;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #183E91;
+}
+.service__container-hero_text > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  max-width: 750px;
+  width: 90%;
+  margin-top: 17px;
+  margin-inline: auto;
+  text-align: center;
+  color: #121212CC;
+}
+.service__container-hero_img {
+  width: 100%;
+  margin-top: 41px;
+}
+.service__container-hero_img > img {
+  width: 100%;
+}
+.service__container-card {
+  display: flex;
+  margin-top: 67px;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 50px 98px;
+  justify-content: center;
+}
+.service__container-card_1 {
+  display: flex;
+  max-width: 350px;
+  width: 90%;
+  min-height: 235px;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-blend-mode: darken;
+  justify-content: center;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card31.png");
+}
+.service__container-card_1 > h2 {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  max-width: 180px;
+  width: 90%;
+  margin-inline: auto;
+}
+.service__container-card_1 > button {
+  margin-top: 67px;
+  max-width: 170px;
+  position: relative;
+  text-decoration: none;
+  width: 90%;
+  margin-inline: auto;
+  padding: 9px 32px;
+  border-radius: 18px;
+  background: #FFAB89;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.service__container-card_2 {
+  display: flex;
+  max-width: 350px;
+  text-decoration: none;
+  width: 90%;
+  align-tems: center;
+  min-height: 235px;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  background-blend-mode: darken;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card32.png");
+}
+.service__container-card_2 > h2 {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  max-width: 250px;
+  width: 90%;
+  margin-inline: auto;
+}
+.service__container-card_2 > button {
+  margin-top: 67px;
+  max-width: 170px;
+  width: 90%;
+  position: relative;
+  margin-inline: auto;
+  padding: 9px 32px;
+  border-radius: 18px;
+  background: #1774FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.service__container-card_3 {
+  display: flex;
+  max-width: 350px;
+  width: 90%;
+  text-decoration: none;
+  align-items: center;
+  min-height: 235px;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column;
+  background-blend-mode: darken;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card33.png");
+}
+.service__container-card_3 > h2 {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  max-width: 180px;
+  width: 90%;
+  margin-inline: auto;
+}
+#text {
+  text-decoration: none;
+  color: white;
+}
+#button {
+  text-decoration: none;
+}
+.service__container-card_3 > button {
+  margin-top: 67px;
+  max-width: 170px;
+  position: relative;
+  width: 90%;
+  margin-inline: auto;
+  padding: 9px 32px;
+  border-radius: 18px;
+  background: transparent;
+  color: white;
+  border: 1px solid #1774FF;
+  cursor: pointer;
+}
+.service__container-industries {
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+}
+.service__container-industries > h1 {
+  font-family: sans-serif;
+  max-width: 300px;
+  width: 90%;
+  margin-inline: auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #121212CC;
+}
+.service__container-card3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 67px;
+  justify-content: center;
+  gap: 29px 29px ;
+  flex-direction: row;
+}
+.service__container-healthcare {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.service__container-healthcare_top {
+  display: flex;
+  max-width: 750px;
+  width: 95%;
+  margin-inline: auto;
+}
+.service__container-healthcare_top > h1 {
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-inline: auto;
+  color: #1774FF;
+}
+.service__container-healthcare_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  max-width: 1300px;
+  width: 90%;
+  margin-inline: auto;
+  gap: 69px;
+}
+.service__container-healthcare_bottom-left {
+  display: flex;
+  max-width: 100%;
+  width: 50%;
+}
+.service__container-healthcare_bottom-left > img {
+  width: 100%;
+}
+.service__container-healthcare_bottom-right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.service__container-healthcare_bottom-right_top {
+  display: flex;
+  max-width: 560px;
+  width: 90%;
+}
+.service__container-healthcare_bottom-right_top > p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212CC;
+}
+.service__container-healthcare_bottom-right_bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.service__container-healthcare_bottom-right_bottom-professional_container {
+  display: flex;
+  max-width: 500px;
+  gap: 22px;
+}
+.service__container-healthcare_bottom-right_bottom-professional_container > img {
+  width: 40px;
+  height: 40px;
+}
+.service__Container-healthcare_bottom-right_bottom-professional {
+  display: flex;
+  flex-direction: column;
+}
+.service__Container-healthcare_bottom-right_bottom-professional > h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFAB89
+}
+.service__Container-healthcare_bottom-right_bottom-professional > p {
+  font-family: sans-serif;
+  margin-top: 13px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+}
+.service__container-healthcare_bottom-right_bottom-satisfied_container{
+  display: flex;
+  max-width: 500px;
+  margin-top: 60px;
+  gap: 22px;
+}
+.service__container-healthcare_bottom-right_bottom-satisfied_container > img {
+  width: 40px;
+  height: 40px;
+}
+.service__container-healthcare_bottom-right_bottom-satisfied {
+  display: flex;
+  flex-direction: column;
+}
+.service__container-healthcare_bottom-right_bottom-satisfied > h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #183E91;
+}
+.service__container-healthcare_bottom-right_bottom-satisfied > p {
+  font-family: sans-serif;
+  margin-top: 13px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+}
+#blue {
+  color: #1774FF;
+}
+.services__container-support {
+  display: flex;
+  margin-top: 60px;
+}
+@media screen and (max-width: 1050px) {
+  .service__container-hero_text > h1 {
+    font-size: 25px;
+  }
+  .service__container-hero_text > p {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+  .service__container-hero_img {
+    margin-top: 31px;
+  }
+  .service__container-card {
+    margin-top: 50px;
+  }
+  .service__container-healthcare_top > h1 {
+    font-size: 24px;
+  }
+  .service__container-healthcare_bottom {
+    margin-top: 40px;
+    gap: 50px;
+  }
+  .service__container-healthcare_bottom-right {
+    margin-top: 0px;
+  }
+} 
+@media screen and (max-width: 780px) {
+  .service__container-hero_text > h1 {
+    font-size: 21px;
+    line-height:28px;
+  }
+  .service__container-hero_text > p {
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .service__container-hero_img {
+    margin-top: 20px;
+  }
+  .service__container-card {
+    margin-top: 30px;
+  }
+  .service__container-industries {
+    margin-top: 50px;
+  }
+  .service__container-industries > h1 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .service__container-card3 {
+    margin-top: 40px;
+  }
+  .service__container-healthcare {
+    margin-top: 40px;
+  }
+  .service__container-healthcare_top > h1 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .service__container-healthcare_bottom {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  } 
+  .service__container-healthcare_bottom-right_bottom {
+    margin-top: 20px;
+  }
+  .service__container-healthcare_bottom-left {
+    width: 100%;
+  }
+  .service__container-healthcare_bottom-right_bottom-professional_container {
+    flex-direction: column;
+  }
+  .service__container-healthcare_bottom-right_bottom-satisfied_container{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+ .service__container-hero_text > h1  {
+   font-size: 18px;
+   line-height: 21px;
+ }
+ .service__container-hero_text > p {
+   font-size: 12px;
+   margin-top: 8px;
+   line-height: 17px;
+ }
+ .service__container-card {
+   gap: 20px 50px;
+   width: 100%;
+ }
+ .service__container-industries {
+   margin-top: 30px;
+ }
+ .service__container-industries > h1 {
+   font-size: 18px;
+   line-height: 22px;
+ }
+ .service__container-card3 {
+   margin-top: 20px;
+ }
+ .service__container-healthcare {
+   margin-top: 20px;
+ }
+ .service__container-healthcare_top > h1 {
+   font-size: 18px;
+ }
+  .service__container-healthcare_bottom {
+    margin-top: 20px;
+    gap: 20px;
+ }
+ .service__container-healthcare_bottom-right_top > p {
+   font-size: 14px;
+ }
+ .service__container-healthcare_bottom-right_bottom-professional_container {
+   gap: 10px;
+ }
+ .service__Container-healthcare_bottom-right_bottom-professional > h3 {
+   font-size: 14px;
+   line-height: 18px;
+ }
+ .service__Container-healthcare_bottom-right_bottom-professional > p {
+   font-size: 12px;
+   margin-top: 8px;
+   line-height: 18px;
+ }
+ .service__container-healthcare_bottom-right_bottom-satisfied_container {
+   gap: 10px;
+   margin-top: 20px;
+ }
+ .service__container-healthcare_bottom-right_bottom-satisfied > h3 {
+  font-size: 14px;
+  line-height: 18px;
+ } 
+ .service__container-healthcare_bottom-right_bottom-satisfied > p {
+  font-size: 12px;
+  margin-top: 8px;
+  line-height: 18px;
+ }
+}

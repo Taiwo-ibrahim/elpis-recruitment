@@ -1,0 +1,210 @@
+.antislavery__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.antislavery__container-hero_text {
+  display: flex;
+  max-width: 650px;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin-inline: auto;
+}
+.antislavery__container-hero_text > h1 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #121212D9
+}
+.antislavery__container-section_1 {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-top: 70px;
+  gap: 33px;
+  margin-inline: auto;
+
+}
+.antislavery__container-section_1 > h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #183E91;
+}
+.antislavery__container-section_1-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 42px;
+}
+.antislavery__container-section_1-content > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+}
+.antislavery__container-section_1-content > p > span {  
+  margin-right: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212E5;
+}
+.antislavery__container-section_2 {
+ display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-top: 65px;
+  gap: 37px;
+  margin-inline: auto;
+}
+.antislavery__container-section_2 > h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #183E91;
+}
+.antislavery__container-section_2-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 37px;
+}
+.antislavery__container-section_2-content > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2
+}
+.antislavery__container-section_2-content > p > span {
+  color: #121212E5;
+  margin-right: 5px;
+}
+.antislavery__container-section_3 {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-top: 65px;
+  gap: 56px;
+  margin-inline: auto;
+}
+.antislavery__container-section_3 > h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #183E91;
+}
+.antislavery__container-section_3-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+}
+.antislavery__container-section_3-content > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+}
+.antislavery__container-section_3-content > p > span {
+  color: #121212E5;
+  margin-right: 5px;
+}
+.antislavery__container-section_4 {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-top: 65px;
+  gap: 37px;
+  margin-inline: auto;
+}
+.antislavery__container-section_4 > h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F4A7F
+}
+.antislavery__container-section_4-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+}
+.antislavery__container-section_4-content > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2
+}
+.antislavery__container-section_4-content > p > span {
+  color: #121212E5;
+  margin-right: 5px;
+}
+.antislavery__container-section_5 {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-top: 71px;
+  margin-bottom: 37px;
+  gap: 37px;
+  margin-inline: auto;
+}
+.antislavery__container-section_5 > h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F4A7F;
+}
+.antislavery__container-section_5-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+}
+.antislavery__container-section_5-content > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+}
+.antislavery__container-section_5-content > p > span {
+  color: #121212E5;
+  margin-right: 5px;
+}

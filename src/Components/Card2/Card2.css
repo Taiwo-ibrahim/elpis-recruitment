@@ -1,0 +1,113 @@
+.card2__container {
+  max-width: 556px;
+  width: 48%;
+  display: flex;
+  background : white;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  min-height: 386px;
+  margin: 0;
+}
+.card2__container > button {
+  border: none;
+  position: relative;
+  margin: 49px 0 0 30px;
+  width: 208px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 15px 0 15px 18px;
+  border-radius: 10px;
+}
+.card2__container > button > span {
+  margin-left: 10px;
+}
+.card2__container > h1 {
+  margin: 30px 0 0 30px;
+  max-width: 457px;
+  width: 90%;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.card2__container > p {
+  margin: 30px 0 0 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  max-width: 450px;
+  width: 90%;
+}
+#card1 > button {
+  background-color: #1774FF;
+}
+#card2 > button {
+  background-color: #FFAB89;
+}
+#card3 > button {
+  background-color: #619565CC;
+}
+#card4 > button {
+  background-color: #FFA4C3;
+}
+
+@media screen and (max-width: 1050px) {
+  .card2__container {
+    min-height: 300px;
+  }
+  .card2__container > button {
+    margin: 19px 0 0 20px;
+    width: 180px;
+    font-size: 17px;
+    padding: 15px 0 15px 15px;
+  }
+  .card2__container > button > span {
+    margin-left: 8px;
+  }
+  .card2__container > h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 0 20px;
+  }
+  .card2__container > p {
+    margin: 20px 0 0 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .card2__container > button {
+    font-size: 15px;
+  }
+  .card2__container > h1 {
+    font-size: 18px;
+  }
+  .card2__container > p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card2__container {
+    width: 100%;
+  }
+  .card2__container > button {
+    padding: 10px 0 10px 13px;
+    font-size: 15px;
+    width: 155px;
+  }
+}

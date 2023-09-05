@@ -1,0 +1,54 @@
+.card3__container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  min-height: 250px;
+  border-radius: 10px;
+}
+.card3__container > img {
+  width: 40px;
+  height: 40px;
+  margin-top: 55px;
+  margin-inline: auto;
+}
+.card3__container > h3 {
+  margin-top: 32px;
+  margin-bottom: 100px;
+  color: #000000;
+  position: relative;
+  text-align: center;
+  margin-inline: auto;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+
+}
+#card31 {
+  border: 1px solid #FFAB89;
+}
+#card32 {
+  border: 1px solid #121212CC;
+}
+#card33 {
+  border: 1px solid #619565;
+}
+#card34 {
+  border: 1px solid #FFA4C3;
+}
+#card35 {
+  border: 1px solid #1774FF;
+}
+#card36 {
+  border: 1px solid #FFAB89;
+}
+#card37 {
+  border: 1px solid #121212CC;
+}
+#card38 {
+  border: 1px solid #619565;
+}
+#card39 {
+  border: 1px solid #FFA4C3;
+}
