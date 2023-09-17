@@ -107,7 +107,7 @@ function Services(props) {
 
       <div className='service__container-healthcare'>
         <div className='service__container-healthcare_top'>
-          <h1>LEARN WHAT MAKES OUR HEALTHCARE STAFF UNIQUE</h1>
+          <h1>LEARN WHAT MAKES OUR STAFF UNIQUE</h1>
         </div>
         <div className='service__container-healthcare_bottom'>
           <div className='service__container-healthcare_bottom-left'>

@@ -45,7 +45,7 @@ function Footer() {
           <small>&copy; Copyright Elpis Recruitment Ltd. All Rights Reserved</small>
         </div>
         <div className='footer__container-bottom_section-img'>
-          <a href='+447778670641'><img src={whatsapp} alt="" /></a> 
+          <a href='https://wa.me/qr/HNU2IESNPB3DP1'><img src={whatsapp} alt="" /></a> 
           <a href='https://instagram.com/elpisrecruitment?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=='><img src={instagram} alt="" /></a> 
           <a href=''><img src={linkedin} alt="" /></a> 
           <a href='https://www.facebook.com/profile.php?id=61550651236082&mibextid=b06tZ0'><img src={facebook} alt="" /></a>

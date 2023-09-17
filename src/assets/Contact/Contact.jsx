@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from "../../Components/Footer/Footer"
 import Support from "../../Components/Support/Support"
@@ -6,9 +6,25 @@ import contactHero from "../../img/contactHero.png"
 import mail from "../../img/mail.png"
 import phone from "../../img/phone.png"
 import mobile from "../../img/mobile.png"
+import emailjs from '@emailjs/browser'
 import "./Contact.css"
 
 function Contact(props) {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_4gft5qd', 'template_c8ewuqh', form.current, 'Mr1IhqLARn_w5noND')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
   return (
     <div className='contact__container'>
       <div id='contact-top'>
@@ -56,12 +72,12 @@ function Contact(props) {
             </div>
           </div>
         </div>
-        <form className='contact__container-contact_form-right'>
-          <input type="text" placeholder='Your Name/organization name'></input>
-          <input type="email" placeholder='Email'></input>
-          <input type="number" placeholder='Phone number'></input>
-          <textarea type="text" placeholder='Your enquiry'></textarea>
-          <button type="submit">Submit</button>
+        <form className='contact__container-contact_form-right' onSubmit={sendEmail} ref={form}>
+          <input type="text" name="from_name" placeholder='Your Name/organization name'></input>
+          <input type="email" name="from_mail" placeholder='Email'></input>
+          <input type="number" name="from_number" placeholder='Phone number'></input>
+          <textarea type="text" name="message" placeholder='Your enquiry'></textarea>
+          <button type="submit" value="Send" >Submit</button>
         </form>
       </div>
 
@@ -72,3 +88,4 @@ function Contact(props) {
 }
 
 export default Contact
+
