@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from "../../Components/Footer/Footer"
 import Support from "../../Components/Support/Support"
@@ -10,15 +10,22 @@ import emailjs from '@emailjs/browser'
 import "./Contact.css"
 
 function Contact(props) {
-
+  const [submit, setSubmit] = useState(true)
+  
+  
   const form = useRef();
-
+  
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs.sendForm('service_4gft5qd', 'template_c8ewuqh', form.current, 'Mr1IhqLARn_w5noND')
-      .then((result) => {
-          console.log(result.text);
+    .then((result) => {
+      console.log(result.text);
+      if(result.text = "OK") {
+        setSubmit(false) 
+      }else {
+        setSubmit(true)
+      }
       }, (error) => {
           console.log(error.text);
       });
@@ -77,7 +84,11 @@ function Contact(props) {
           <input type="email" name="from_mail" placeholder='Email'></input>
           <input type="number" name="from_number" placeholder='Phone number'></input>
           <textarea type="text" name="message" placeholder='Your enquiry'></textarea>
-          <button type="submit" value="Send" >Submit</button>
+          
+          {submit?  <button type="submit" value="Send" >Submit</button> : <p className='ternary-text'>Your enquiry has been submitted with provided details.</p> }
+          
+         
+          
         </form>
       </div>
 

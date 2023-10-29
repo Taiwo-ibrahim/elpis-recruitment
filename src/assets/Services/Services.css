@@ -60,7 +60,7 @@
   background-blend-mode: darken;
   justify-content: center;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card31.png");
+  background: rgba(0, 0, 0, 0.8) url("/card31.png");
 }
 .service__container-card_1 > h2 {
   font-family: sans-serif;
@@ -100,7 +100,7 @@
   flex-direction: column;
   background-blend-mode: darken;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card32.png");
+  background: rgba(0, 0, 0, 0.8) url("/card32.png");
 }
 .service__container-card_2 > h2 {
   font-family: sans-serif;
@@ -139,7 +139,7 @@
   flex-direction: column;
   background-blend-mode: darken;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.8) url("C:\Users\personal\my-react-app\src\img\card33.png");
+  background: rgba(0, 0, 0, 0.8) url("/card33.png");
 }
 .service__container-card_3 > h2 {
   font-family: sans-serif;
